@@ -34,7 +34,7 @@ multiblob
 muxrpc
 packet-stream
 "
-AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg ev gwenbell staltz marak"
+AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg evbogue gwenbell staltz marak"
 
 for R in $REPOS; do
   OWNERS=$(npm owner ls $R | awk '{print $1}')

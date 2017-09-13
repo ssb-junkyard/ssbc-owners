@@ -1,10 +1,13 @@
 
 #! /bin/bash
 
-REPOS="ssb-avatar
+REPOS="ssb-about
+ssb-avatar
+ssb-backlinks
 ssb-blobs
 ssb-client
 ssb-config
+ssb-contacts
 ssb-ebt
 ssb-feed
 ssb-friends
@@ -16,6 +19,7 @@ ssb-mentions
 ssb-msg-schemas
 ssb-msgs
 ssb-names
+ssb-private
 ssb-query
 ssb-reduce
 ssb-reduce-stream

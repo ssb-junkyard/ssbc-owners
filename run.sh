@@ -37,6 +37,10 @@ multiserver
 multiblob
 muxrpc
 packet-stream
+react-native-scuttlebot
+react-native-ssb-client
+react-native-ssb-client-keys
+react-native-ssb-shims
 "
 AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg evbogue gwenbell staltz marak"
 

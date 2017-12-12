@@ -44,14 +44,14 @@ react-native-ssb-client
 react-native-ssb-client-keys
 react-native-ssb-shims
 "
-AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg evbogue gwenbell staltz marak"
+AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg evbogue gwenbell staltz"
 
 for R in $REPOS; do
   OWNERS=$(npm owner ls $R | awk '{print $1}')
   for A in $AUTHORS; do
     echo $OWNERS | grep -o $A > /dev/null
     IS_OWNER=$?
-    if [[ 0 == "$IS_OWNER" ]]; then 
+    if [[ 0 == "$IS_OWNER" ]]; then
       echo $A already owns $R
     else
       echo npm owner add $A $R
@@ -59,5 +59,3 @@ for R in $REPOS; do
     fi
   done
 done
-
-

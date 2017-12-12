@@ -15,6 +15,8 @@ ssb-generate
 ssb-irc
 ssb-keys
 ssb-links
+ssb-markdown
+ssb-marked
 ssb-mentions
 ssb-msg-schemas
 ssb-msgs

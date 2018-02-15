@@ -5,6 +5,7 @@ REPOS="ssb-about
 ssb-avatar
 ssb-backlinks
 ssb-blobs
+ssb-serve-blobs
 ssb-client
 ssb-config
 ssb-contacts

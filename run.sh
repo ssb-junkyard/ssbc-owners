@@ -33,9 +33,11 @@ ssb-sort
 ssb-status
 ssb-thread
 ssb-viewer
+ssb-validate
 ssb-ws
 scuttlebot
 secure-scuttlebutt
+secret-stack
 multiserver
 multiblob
 muxrpc
@@ -45,7 +47,7 @@ react-native-ssb-client
 react-native-ssb-client-keys
 react-native-ssb-shims
 "
-AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg evbogue gwenbell staltz"
+AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg evbogue gwenbell staltz arj03"
 
 for R in $REPOS; do
   OWNERS=$(npm owner ls $R | awk '{print $1}')
@@ -60,3 +62,6 @@ for R in $REPOS; do
     fi
   done
 done
+
+
+

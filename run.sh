@@ -47,7 +47,8 @@ react-native-ssb-client
 react-native-ssb-client-keys
 react-native-ssb-shims
 "
-AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg staltz arj03 christianbundy"
+
+AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg staltz arj03 christianbundy cryp7ix"
 
 function add () {
 

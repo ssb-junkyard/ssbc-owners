@@ -1,4 +1,3 @@
-
 #! /bin/bash
 
 REPOS="ssb-about
@@ -36,6 +35,7 @@ ssb-viewer
 ssb-validate
 ssb-ws
 scuttlebot
+scuttlebot-release
 secure-scuttlebutt
 secret-stack
 multiserver

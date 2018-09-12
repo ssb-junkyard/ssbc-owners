@@ -1,4 +1,3 @@
-
 #! /bin/bash
 
 REPOS="ssb-about
@@ -24,7 +23,6 @@ ssb-msgs
 ssb-names
 ssb-private
 ssb-query
-ssb-reduce
 ssb-reduce-stream
 ssb-ref
 ssb-search

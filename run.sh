@@ -36,6 +36,7 @@ ssb-viewer
 ssb-validate
 ssb-ws
 scuttlebot
+scuttlebot-release
 secure-scuttlebutt
 secret-stack
 multiserver
@@ -65,6 +66,21 @@ function add () {
       fi
     done
   done
+}
+
+function add_module () {
+  R=$1
+  OWNERS=$(npm owner ls $R | awk '{print $1}')
+  for A in $AUTHORS; do
+    echo $OWNERS | grep -o $A > /dev/null
+    IS_OWNER=$?
+    if [[ 0 == "$IS_OWNER" ]]; then
+      echo $A already owns $R
+    else
+      echo npm owner add $A $R
+      npm owner add $A $R
+    fi
+  done
 
 }
 
@@ -78,4 +94,7 @@ function rm () {
 }
 
 "$@"
+
+
+
 

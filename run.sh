@@ -45,6 +45,7 @@ react-native-scuttlebot
 react-native-ssb-client
 react-native-ssb-client-keys
 react-native-ssb-shims
+ssb-identities
 "
 
 AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg staltz arj03 christianbundy cryp7ix"

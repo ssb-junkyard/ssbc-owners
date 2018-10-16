@@ -1,6 +1,7 @@
 #! /bin/bash
 
-REPOS="ssb-about
+REPOS="forked-systray
+ssb-about
 ssb-avatar
 ssb-backlinks
 ssb-blobs

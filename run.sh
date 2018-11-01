@@ -38,6 +38,7 @@ scuttlebot-release
 secure-scuttlebutt
 secret-stack
 multiserver
+multiserver-scopes
 multiblob
 muxrpc
 packet-stream
@@ -48,7 +49,7 @@ react-native-ssb-shims
 ssb-identities
 "
 
-AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg staltz arj03 christianbundy cryp7ix"
+AUTHORS="dominictarr mixmix cel ahdinosaur mmckegg staltz arj03 christianbundy cryp7ix regular"
 
 function add () {
 
